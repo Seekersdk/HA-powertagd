@@ -1,7 +1,8 @@
 name: "Powertag Add-on"
 version: "1.0.0"
-slug: "powertag"
-description: "Runs powertagd and powertag2mqtt scripts"
+slug: HA-powertagd
+description: >-
+  Runs Jlamas powertagd script
 arch:
   - armhf
   - armv7
