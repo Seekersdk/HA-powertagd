@@ -1,0 +1,29 @@
+{
+  "name": "Powertag Add-on",
+  "version": "1.0.0",
+  "slug": "powertag",
+  "description": "Runs powertagd and powertag2mqtt scripts",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "options": {
+    "USBPORT": "/dev/ttyUSB0",
+    "BROKER_IP": "tcp://0.0.0.0:1883",
+    "USERNAME": "mqtt_user",
+    "PASSWORD": "mqtt_password"
+  },
+  "schema": {
+    "USBPORT": "string",
+    "BROKER_IP": "string",
+    "USERNAME": "string",
+    "PASSWORD": "password"
+  },
+  "auto_uart": true,
+  "auto_update": true,
+  "network": {
+    "broker_ip": {
+      "description": "MQTT broker IP",
+      "default": "tcp://0.0.0.0:1883"
+    }
+  }
+}
