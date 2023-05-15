@@ -1,0 +1,8 @@
+{
+  "name": "Powertagd for HA",
+  "url": "https://github.com/Seekersdk/HA-powertagd",
+  "maintainer": "Seekers <mailtilmig@gmail.com>",
+  "addons": [
+    "powertag"
+  ]
+}
